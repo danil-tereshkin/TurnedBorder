@@ -1,0 +1,22 @@
+div {
+    width: 128px;
+    height: 128px;
+}
+
+div.image {
+    position: relative;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: -168px;
+    box-shadow: 0 0 0 5px rgb(231, 221, 199), 0 0 0 8px rgb(182, 175, 159), 0 0 0 9px white;
+    background-image: url(venera.png);
+    background-repeat: no-repeat;
+}
+
+div.turn {
+    position: relative;
+    z-index: 1;
+    margin: 40px;
+    box-shadow: 0 0 0 5px rgb(231, 221, 199), 0 0 0 8px rgb(182, 175, 159), 0 0 0 9px white;
+    transform: rotate(-10deg);
+}
